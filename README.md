@@ -1,16 +1,44 @@
-# simple_music_player
+# 🎵 Flutter Music Player with XAMPP Backend
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-3.19-blue?logo=flutter)
+![PHP](https://img.shields.io/badge/PHP-8.0+-purple?logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-5.7+-blue?logo=mysql)
 
-## Getting Started
+A beautiful cross-platform music player app built with Flutter, using XAMPP for backend API and database management.
 
-This project is a starting point for a Flutter application.
+![App Screenshot](screenshots/2.png)
+![Login Screen](screenshots/1.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
+- 🎶 Play local/streamed audio files
+- 📱 Cross-platform (Android, iOS, Web)
+- 🔍 Browse songs by artist/album
+- 💾 XAMPP backend for:
+  - User authentication
+  - Playlist management
+  - Song metadata storage
+- 🎨 Sleek UI with dark/light themes
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+| Component       | Technology           |
+|----------------|---------------------|
+| Frontend       | Flutter (Dart)      |
+| Backend        | XAMPP (Apache/PHP)  |
+| Database       | MySQL               |
+| API            | RESTful PHP API     |
+
+## 🚀 Setup Guide
+
+### Backend (XAMPP)
+1. Install [XAMPP](https://www.apachefriends.org/download.html)
+2. Clone this repo's `backend/` folder to `htdocs/`
+3. Import `database/music_player.sql` to phpMyAdmin
+4. Configure API endpoints in `lib/services/api_service.dart`
+
+### Frontend (Flutter)
+```bash
+git clone https://github.com/your-username/flutter-music-player.git
+cd flutter-music-player
+flutter pub get
+flutter run
