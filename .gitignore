@@ -64,3 +64,7 @@ app.*.map.json
 .idea/
 *.swp
 *.swo
+# XAMPP specific
+backend/api/sessions/
+backend/api/config.local.php
+*.log
