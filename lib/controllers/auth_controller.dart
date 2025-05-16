@@ -70,7 +70,6 @@ class AuthController {
 
   Future<bool> logout() async {
     try {
-      // In a real app, you would call your logout API endpoint
       await Future.delayed(const Duration(seconds: 1));
       return true;
     } catch (e) {
