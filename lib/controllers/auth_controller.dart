@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/user_model.dart';
 
 class AuthController {
-  static const String _baseUrl = 'http://localhost/api'; // For Android emulator
+  static const String _baseUrl = 'http://localhost/api'; 
 
   Future<User?> register(String username, String email, String password) async {
     try {
