@@ -2,7 +2,6 @@ import '../models/song_model.dart';
 import '../models/playlist_model.dart';
 
 class MusicController {
-  // Changed to non-final to allow modification
   List<Playlist> playlists = [
     Playlist(
       id: '1',
