@@ -34,7 +34,6 @@ A beautiful cross-platform music player app built with Flutter, using XAMPP for 
 1. Install [XAMPP](https://www.apachefriends.org/download.html)
 2. Clone this repo's `backend/` folder to `htdocs/`
 3. Import `database/music_player.sql` to phpMyAdmin
-4. Configure API endpoints in `lib/services/api_service.dart`
 
 ### Frontend (Flutter)
 ```bash
