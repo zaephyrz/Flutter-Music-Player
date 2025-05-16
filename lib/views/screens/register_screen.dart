@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import '../../controllers/auth_controller.dart';
-//import '../../models/user_model.dart';
-//import '../../utilities/routes.dart';
 import '../widgets/gradient_appbar.dart';
 
 class RegisterScreen extends StatefulWidget {
