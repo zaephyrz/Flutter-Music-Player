@@ -4,7 +4,7 @@
 ![PHP](https://img.shields.io/badge/PHP-8.0+-purple?logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-5.7+-blue?logo=mysql)
 
-A beautiful cross-platform music player app built with Flutter, using XAMPP for backend API and database management.
+A simple music player app built with Flutter, using XAMPP for backend API and database management.
 
 ![App Screenshot](screenshots/2.png)
 ![Login Screen](screenshots/1.png)
