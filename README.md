@@ -38,7 +38,7 @@ A beautiful cross-platform music player app built with Flutter, using XAMPP for 
 
 ### Frontend (Flutter)
 ```bash
-git clone https://github.com/your-username/flutter-music-player.git
+git clone https://github.com/zaephyrz/flutter-music-player.git
 cd flutter-music-player
 flutter pub get
 flutter run
