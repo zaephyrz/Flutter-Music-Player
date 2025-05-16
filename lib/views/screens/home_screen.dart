@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   HomeScreen({
     super.key,
     required MusicController musicController,
-  }); // Removed const constructor
+  });
 
   @override
   Widget build(BuildContext context) {
