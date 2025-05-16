@@ -12,13 +12,9 @@ A simple music player app built with Flutter, using XAMPP for backend API and da
 
 ## ✨ Features
 - 🎶 Play local/streamed audio files
-- 📱 Cross-platform (Android, iOS, Web)
+- 📱 Cross-platform (Android, Web, Desktop)
 - 🔍 Browse songs by artist/album
-- 💾 XAMPP backend for:
-  - User authentication
-  - Playlist management
-  - Song metadata storage
-- 🎨 Sleek UI with dark/light themes
+- 💾 XAMPP backend for user authentication
 
 ## 🛠️ Tech Stack
 | Component       | Technology           |
